@@ -1,44 +1,32 @@
-# Frontend Internship Challenge – Tekly Studio
+# 💹 Crypto Asset Dashboard
 
-We’re looking for someone who can create user interfaces that are clean, responsive, and data-aware.
+A responsive and interactive dashboard built with React that displays real-time cryptocurrency data including price, volume, and historical trends. This app fetches data from the CoinGecko API and visualizes price movement using Chart.js.
 
----
+## 🔧 Tools Used
 
-## 🎨 Challenge Prompt
+- **React** – Frontend framework
+- **Tailwind CSS** – Utility-first styling
+- **Axios** – HTTP client for API calls
+- **Chart.js + react-chartjs-2** – For rendering price movement charts
+- **CoinGecko API** – Public API for cryptocurrency market data
 
-Create a basic crypto asset dashboard that:
-- Lets users input a symbol or pick from a dropdown
-- Fetches and displays price + volume data using a public API (e.g., CoinGecko)
-- Bonus: Include a chart or price movement visual
+## 🎨 UI Decisions
 
-Use React, Vue, or your preferred frontend framework.
+- **Tailwind CSS** was used to ensure quick styling and full responsiveness across screen sizes.
+- **Dark theme** UI was chosen for a modern look and better contrast for charts.
+- A **dropdown selector** allows users to switch between multiple cryptocurrencies easily.
+- The **line chart** provides a clear view of price trends over the past 7 days.
+- Modular components (`Dropdown`, `CryptoInfo`, `PriceChart`, `PriceList`) make the UI clean and maintainable.
 
----
+## 🚀 What I'd Enhance With More Time
 
-## 📦 What to Include
-
-- Your frontend app files
-- Instructions for running locally
-- Screenshots or demo links (if possible)
-- A `README.md` summarizing:
-  - Tools used
-  - UI decisions
-  - What you’d enhance with more time
-
----
-
-## 📝 How to Submit
-
-1. Fork this repository.
-2. Complete the challenge in this folder in your fork.
-3. Fill out the submission form:  
-   👉 [Submit Here](https://forms.gle/bEpchsNKHHwcyZ47A)
+- 🔍 **Search functionality** to allow users to query any crypto, not just pre-selected ones
+- 📈 Add **more detailed chart analytics** (volume overlays, zoom/pan features)
+- 🌙 **Dark/light mode toggle**
+- 🧪 **Unit tests and integration tests** for components
+- 📦 Deployment-ready configuration (e.g., hosted on Vercel or GitHub Pages)
+- 🧠 Integrate **AI-generated crypto summaries** using an LLM like Gemini or OpenAI
 
 ---
 
-## 🧠 Evaluation Criteria
-
-- Clean UI/UX
-- Responsiveness and API integration
-- Code clarity and structure
-- Communication of design choices
+🧑‍💻 Built as part of the Tekly Studio Frontend Internship Challenge
